@@ -71,3 +71,19 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .message {
+    font-size: 14px;
+  }
+
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+}
